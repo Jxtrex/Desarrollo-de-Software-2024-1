@@ -1,4 +1,4 @@
-public class Calculator {
+class Calculator {
 
     public int sumar(int numeroA, int numeroB) {
         return numeroA + numeroB;

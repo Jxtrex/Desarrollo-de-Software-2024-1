@@ -9,6 +9,10 @@ Al principio estimamos la velocidad de nuestro equipo, luego reevaluamos según 
 correspondientemente.
 Usamos la velocidad como un guía de planificación no como un objetivo fijo.
 
+*Introducción a Cucumber* (BDD)
+Framework que soporta BDD.
+
 ***
+> Terminar el tutorial de Cucumber para el lunes
 
 > Revisar constantemente los archivos en univirtual y adicionar al repositorio [REPO DEL CURSO](https://github.com/Jxtrex/Desarrollo-de-Software-2024-1)

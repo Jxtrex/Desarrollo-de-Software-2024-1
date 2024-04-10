@@ -225,8 +225,8 @@ class CalculadorTest {
 //
 //        // Act
 //        double resultado = calculador.division(numeroA, numeroB);
-//
-//        // Assert
+
+        // Assert
 //        assertEquals(new ArithmeticException(), resultado, "10 / 0 debería lanzar una advertencia");
-//    }
+    }
 }

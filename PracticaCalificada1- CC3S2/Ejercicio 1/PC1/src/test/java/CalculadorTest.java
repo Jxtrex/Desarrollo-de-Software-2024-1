@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
 
+import java.awt.geom.RoundRectangle2D;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculadorTest {
@@ -185,6 +187,7 @@ class CalculadorTest {
         // Assert
         assertEquals(2, resultado, "10 / 5 debería ser 2");
     }
+
     @Test
     void testDiv_NegativeNumbers_ShoudlReturnPositiveDivision() {
         // Arrange
@@ -198,6 +201,7 @@ class CalculadorTest {
         // Assert
         assertEquals(2, resultado, "(-10) / (-5) debería ser 2");
     }
+
     @Test
     void testDiv_PositiveAndNegativeNumbers_ShoudlReturnNegativeDivision() {
         // Arrange
@@ -211,4 +215,18 @@ class CalculadorTest {
         // Assert
         assertEquals(-2, resultado, "(-10) / (-5) debería ser 2");
     }
+
+//    @Test
+//    void testDiv_DivisionByZero_ShoudlReturnWarning() {
+//        // Arrange
+//        Calculador calculador = new Calculador();
+//        int numeroA = 10;
+//        int numeroB = 0;
+//
+//        // Act
+//        double resultado = calculador.division(numeroA, numeroB);
+//
+//        // Assert
+//        assertEquals(new ArithmeticException(), resultado, "10 / 0 debería lanzar una advertencia");
+//    }
 }

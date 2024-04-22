@@ -16,17 +16,27 @@ public class FootballTeamTest {
     }
 
     @ParameterizedTest
-    @ValueSource(ints ={-1,-10})
-    void constructorShoulThrowExceptionForIllegalGamesNb(int illegalNbOfGames){
+    @ValueSource(ints = {-1, -10})
+    void constructorShoulThrowExceptionForIllegalGamesNb(int illegalNbOfGames) {
         assertThatExceptionOfType(IllegalArgumentException.class)
-                .isThrownBy(() -> {new FootballTeam(illegalNbOfGames);});
+                .isThrownBy(() -> {
+                    new FootballTeam(illegalNbOfGames);
+                });
     }
 
     private static final int ANY_NUMBER = 123;
+
     @Test
-    void shouldBePossibleToCompareTeams(){
+    void shouldBePossibleToCompareTeams() {
         FootballTeam team = new FootballTeam(ANY_NUMBER);
         assertThat(team).isInstanceOf(Comparable.class);
+    }
+
+    @Test
+    void teamsWithMoreMatchesWonShouldBeGreater() {
+        FootballTeam team_2 = new FootballTeam(2);
+        FootballTeam team_3 = new FootballTeam(3);
+        assertThat(team_3.compareTo(team_2)).isGreaterThan(0);
     }
 }
 //    private static final int THREE_GAMES_WON = 3;

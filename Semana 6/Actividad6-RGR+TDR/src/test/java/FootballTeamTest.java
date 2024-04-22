@@ -21,6 +21,13 @@ public class FootballTeamTest {
         assertThatExceptionOfType(IllegalArgumentException.class)
                 .isThrownBy(() -> {new FootballTeam(illegalNbOfGames);});
     }
+
+    private static final int ANY_NUMBER = 123;
+    @Test
+    void shouldBePossibleToCompareTeams(){
+        FootballTeam team = new FootballTeam(ANY_NUMBER);
+        assertThat(team).isInstanceOf(Comparable.class);
+    }
 }
 //    private static final int THREE_GAMES_WON = 3;
 //

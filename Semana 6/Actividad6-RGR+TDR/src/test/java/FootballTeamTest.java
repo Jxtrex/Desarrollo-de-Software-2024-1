@@ -10,11 +10,17 @@ public class FootballTeamTest {
     @ValueSource(ints = {0, 1, 3, 10})
     void constructorShouldSetGamesWon(int nbOfGamesWon) {
         FootballTeam team = new FootballTeam(nbOfGamesWon);
-        assertThat(team.getGamesWon()).as("number of games won").isEqualTo(nbOfGamesWon);
+        assertThat(team.getGamesWon())
+                .as("number of games won")
+                .isEqualTo(nbOfGamesWon);
     }
 
     @ParameterizedTest
     @ValueSource(ints ={-1,-10})
+    void constructorShoulThrowExceptionForIllegalGamesNb(int illegalNbOfGames){
+        assertThatExceptionOfType(IllegalArgumentException.class)
+                .isThrownBy(() -> {new FootballTeam(illegalNbOfGames);});
+    }
 }
 //    private static final int THREE_GAMES_WON = 3;
 //

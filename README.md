@@ -14,7 +14,7 @@ Instalamos la extensión de Sonarlint para IntelliJ IDEA y enlazamos mediante el
 Pegamos lo siguiente en el archivo `build.gradle` de nuestro proyecto:
 
 \# Código para proyecto de muestra de la [actividad](ACTIVIDADES/Codigo%20limpio,%20analisis%20de%20codigo%20estatico%20y%20dinamico/Sonarqube-and-sonarlint-guide%20main%20microwave/) de Sonarqube
-```json
+```java
 plugins {
     id "org.sonarqube" version "3.5.0.2730"
 }
@@ -22,7 +22,7 @@ plugins {
 ```
 
 Nos dirigimos al bloque de `sonarqube`:
-```json
+```java
 sonar {
     properties {
         property "sonar.projectKey", "ayudantias_microwave"

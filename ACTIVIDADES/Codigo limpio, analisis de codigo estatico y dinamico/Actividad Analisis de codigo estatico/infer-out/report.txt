@@ -1,0 +1,12 @@
+#0
+Hello.java:4: error: Null Dereference
+  object `s` last assigned on line 3 could be null and is dereferenced at line 4.
+  2.     int test() {
+  3.       String s = null;
+  4. >     return s.length();
+  5.     }
+  6.   }
+
+Found 1 issue
+          Issue Type(ISSUED_TYPE_ID): #
+  Null Dereference(NULL_DEREFERENCE): 1

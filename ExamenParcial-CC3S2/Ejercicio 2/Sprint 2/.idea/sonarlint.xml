@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="bindingEnabled" value="true" />
+    <option name="moduleMapping">
+      <map>
+        <entry key="Sprint2" value="Sprint1" />
+      </map>
+    </option>
+    <option name="projectKey" value="ExamenParcial" />
+    <option name="serverId" value="sqp_f4bb4a4b416d6cc2e932c714a808d5e7d392de91" />
+  </component>
+</project>

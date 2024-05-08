@@ -3,10 +3,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static com.wordz.domain.Letter.*;
-public class WordTest {
+
+class WordTest {
 
     @Test
-    public void oneIncorrectLetter() {
+    void oneIncorrectLetter() {
         // Arrange
         var word = new Word("A");
 
@@ -18,7 +19,7 @@ public class WordTest {
     }
 
     @Test
-    public void oneCorrectLetter() {
+    void oneCorrectLetter() {
         // Arrange
         var word = new Word("A");
 
@@ -30,7 +31,7 @@ public class WordTest {
     }
 
     @Test
-    public void secondLetterWrongPosition() {
+    void secondLetterWrongPosition() {
         // Arrange
         var word = new Word("AR");
 
@@ -42,7 +43,7 @@ public class WordTest {
     }
 
     @Test
-    public void allScoreCombinations() {
+    void allScoreCombinations() {
 
         // Arrange
         var word = new Word("ARI");

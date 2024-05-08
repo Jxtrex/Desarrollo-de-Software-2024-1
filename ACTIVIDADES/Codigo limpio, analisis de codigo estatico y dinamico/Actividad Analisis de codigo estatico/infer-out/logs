@@ -1,115 +1,115 @@
-[32803][      debug] Loading models took 150ms
-[32805][      debug] Sqlite write daemon: starting up
-[32805][      debug] Sqlite write daemon: set up complete, waiting for connections
-[32803][environment] CWD = /home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico
-[32803][environment] No .inferconfig file found
-[32803][environment] Project root = /home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico
-[32803][environment] INFER_ARGS =   @/tmp/args.tmp.2b6ad5
-[32803][environment] command line arguments:   infer run -- javac Hello.java
-[32803][environment] Available memory at startup: 4626 MB
-[32803][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
-[32803][environment] Scheduler: file
-[32803][environment] Cores used: 4
-[32803][environment] Infer version v1.1.0
-[32803][environment] Copyright 2009 - present Facebook. All Rights Reserved.
-[32803][environment] 
-[32803][   progress] Capturing in javac mode...
-[32803][      debug] Current working directory: '/home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico'
-[32803][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico/infer-out/tmp/javac_args.tmp.aed51a' 2>'/home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico/infer-out/tmp/javac.tmp.712334.out'
-[32803][      debug] *** Success. Logs:
-[32803][      debug] Translating 1 source files (1 classes)
-[32803][      debug] done capturing all files
-[32803][      debug] GC stats for capture:
-[32803][      debug]   minor_words: 1.69788e+06
-[32803][      debug]   promoted_words: 248919
-[32803][      debug]   major_words: 263979
-[32803][      debug]   minor_collections: 2
-[32803][      debug]   major_collections: 1
-[32803][      debug]   compactions: 0
-[32803][      debug]   top_heap_words: 1006592
-[32803][      debug]   
-[32803][environment] Parallel jobs: 4
-[32803][   progress] Found 1 source file to analyze in /home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico/infer-out
-[32831][   progress] Hello.java starting
-[32831][   progress] Hello.java DONE
-[32803][      debug] Backend stats:
-[32803][      debug]   summary_file_try_load= 8
-[32803][      debug]   summary_read_from_disk= 0
-[32803][      debug]   summary_cache_hits= 36 (81%)
-[32803][      debug]   summary_cache_misses= 8
-[32803][      debug]   ondemand_procs_analyzed= 2
-[32803][      debug]   ondemand_local_cache_hits= 9 (64%)
-[32803][      debug]   ondemand_local_cache_misses= 5
-[32803][      debug]   proc_locker_lock_time_user= 0.00000000
-[32803][      debug]   proc_locker_lock_time_sys= 0.00000000
-[32803][      debug]   proc_locker_lock_time_wall= 0.00000000
-[32803][      debug]   proc_locker_unlock_time_user= 0.00000000
-[32803][      debug]   proc_locker_unlock_time_sys= 0.00000000
-[32803][      debug]   proc_locker_unlock_time_wall= 0.00000000
-[32803][      debug]   restart_scheduler_useful_time_user= 0.00000000
-[32803][      debug]   restart_scheduler_useful_time_sys= 0.00000000
-[32803][      debug]   restart_scheduler_useful_time_wall= 0.00000000
-[32803][      debug]   restart_scheduler_total_time_user= 0.00000000
-[32803][      debug]   restart_scheduler_total_time_sys= 0.00000000
-[32803][      debug]   restart_scheduler_total_time_wall= 0.00000000
-[32803][      debug]   
-[32803][      debug] GC stats for backend_stats.gc_stats_add.:
-[32803][      debug]   minor_words: 299736
-[32803][      debug]   promoted_words: 109371
-[32803][      debug]   major_words: 111879
-[32803][      debug]   minor_collections: 1
-[32803][      debug]   major_collections: 0
-[32803][      debug]   compactions: 0
-[32803][      debug]   top_heap_words: 4177408
-[32803][      debug]   
-[32803][      debug] GC stats for backend_stats.gc_stats_max.:
-[32803][      debug]   minor_words: 299574
-[32803][      debug]   promoted_words: 109371
-[32803][      debug]   major_words: 111879
-[32803][      debug]   minor_collections: 1
-[32803][      debug]   major_collections: 0
-[32803][      debug]   compactions: 0
-[32803][      debug]   top_heap_words: 1157632
-[32803][      debug]   
-[32803][      debug] Average over 4 processes
-[32803][      debug] GC stats for backend_stats.gc_stats_average.:
-[32803][      debug]   minor_words: 74934
-[32803][      debug]   promoted_words: 27342.8
-[32803][      debug]   major_words: 27969.8
-[32803][      debug]   minor_collections: 0
-[32803][      debug]   major_collections: 0
-[32803][      debug]   compactions: 0
-[32803][      debug]   top_heap_words: 1044352
-[32803][      debug]   
-[32803][      debug] Analysis phase finished in 45.494ms
-[32803][      debug] backend_stats.scheduler_process_analysis_time_user= 0.02391000
-[32803][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.00782500
-[32803][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.04549438
-[32803][      debug] GC stats for analysis_scheduler:
-[32803][      debug]   minor_words: 139303
-[32803][      debug]   promoted_words: 106573
-[32803][      debug]   major_words: 115279
-[32803][      debug]   minor_collections: 1
-[32803][      debug]   major_collections: 2
-[32803][      debug]   compactions: 1
-[32803][      debug]   top_heap_words: 1157632
-[32803][      debug]   
-[32803][      debug] GC stats for report:
-[32803][      debug]   minor_words: 21707
-[32803][      debug]   promoted_words: 0
-[32803][      debug]   major_words: 0
-[32803][      debug]   minor_collections: 0
-[32803][      debug]   major_collections: 0
-[32803][      debug]   compactions: 0
-[32803][      debug]   top_heap_words: 1157632
-[32803][      debug]   
-[32803][      debug] GC stats for main_process_full:
-[32803][      debug]   minor_words: 3.51013e+06
-[32803][      debug]   promoted_words: 522849
-[32803][      debug]   major_words: 1.07266e+06
-[32803][      debug]   minor_collections: 10
-[32803][      debug]   major_collections: 5
-[32803][      debug]   compactions: 2
-[32803][      debug]   top_heap_words: 1157632
-[32803][      debug]   
-[32805][      debug] Sqlite write daemon: terminating
+[32895][      debug] Loading models took 128ms
+[32896][      debug] Sqlite write daemon: starting up
+[32896][      debug] Sqlite write daemon: set up complete, waiting for connections
+[32895][environment] CWD = /home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico
+[32895][environment] No .inferconfig file found
+[32895][environment] Project root = /home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico
+[32895][environment] INFER_ARGS =   @/tmp/args.tmp.3a5633
+[32895][environment] command line arguments:   infer run -- javac Hello.java
+[32895][environment] Available memory at startup: 4618 MB
+[32895][environment] Active checkers: self-in-block (C/C++/ObjC), starvation (C/C++/ObjC, Java), uninit (C/C++/ObjC), siof (C/C++/ObjC), dotnet-resource-leak (C#/.Net), racerd (C/C++/ObjC, Java), liveness (C/C++/ObjC), inefficient-keyset-iterator (Java), fragment-retains-view (Java), biabduction (C/C++/ObjC, Java, C#/.Net)
+[32895][environment] Scheduler: file
+[32895][environment] Cores used: 4
+[32895][environment] Infer version v1.1.0
+[32895][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[32895][environment] 
+[32895][   progress] Capturing in javac mode...
+[32895][      debug] Current working directory: '/home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico'
+[32895][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico/infer-out/tmp/javac_args.tmp.36042f' 2>'/home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico/infer-out/tmp/javac.tmp.7d338a.out'
+[32895][      debug] *** Success. Logs:
+[32895][      debug] Translating 1 source files (1 classes)
+[32895][      debug] done capturing all files
+[32895][      debug] GC stats for capture:
+[32895][      debug]   minor_words: 1.70058e+06
+[32895][      debug]   promoted_words: 248514
+[32895][      debug]   major_words: 263574
+[32895][      debug]   minor_collections: 2
+[32895][      debug]   major_collections: 1
+[32895][      debug]   compactions: 0
+[32895][      debug]   top_heap_words: 1006592
+[32895][      debug]   
+[32895][environment] Parallel jobs: 4
+[32895][   progress] Found 1 source file to analyze in /home/lerzundi/Escritorio/Lerzundi-CC3S2_2024-1/ACTIVIDADES/Codigo limpio, analisis de codigo estatico y dinamico/Actividad Analisis de codigo estatico/infer-out
+[32923][   progress] Hello.java starting
+[32923][   progress] Hello.java DONE
+[32895][      debug] Backend stats:
+[32895][      debug]   summary_file_try_load= 8
+[32895][      debug]   summary_read_from_disk= 0
+[32895][      debug]   summary_cache_hits= 36 (81%)
+[32895][      debug]   summary_cache_misses= 8
+[32895][      debug]   ondemand_procs_analyzed= 2
+[32895][      debug]   ondemand_local_cache_hits= 9 (64%)
+[32895][      debug]   ondemand_local_cache_misses= 5
+[32895][      debug]   proc_locker_lock_time_user= 0.00000000
+[32895][      debug]   proc_locker_lock_time_sys= 0.00000000
+[32895][      debug]   proc_locker_lock_time_wall= 0.00000000
+[32895][      debug]   proc_locker_unlock_time_user= 0.00000000
+[32895][      debug]   proc_locker_unlock_time_sys= 0.00000000
+[32895][      debug]   proc_locker_unlock_time_wall= 0.00000000
+[32895][      debug]   restart_scheduler_useful_time_user= 0.00000000
+[32895][      debug]   restart_scheduler_useful_time_sys= 0.00000000
+[32895][      debug]   restart_scheduler_useful_time_wall= 0.00000000
+[32895][      debug]   restart_scheduler_total_time_user= 0.00000000
+[32895][      debug]   restart_scheduler_total_time_sys= 0.00000000
+[32895][      debug]   restart_scheduler_total_time_wall= 0.00000000
+[32895][      debug]   
+[32895][      debug] GC stats for backend_stats.gc_stats_add.:
+[32895][      debug]   minor_words: 662793
+[32895][      debug]   promoted_words: 109821
+[32895][      debug]   major_words: 112563
+[32895][      debug]   minor_collections: 1
+[32895][      debug]   major_collections: 0
+[32895][      debug]   compactions: 0
+[32895][      debug]   top_heap_words: 4177408
+[32895][      debug]   
+[32895][      debug] GC stats for backend_stats.gc_stats_max.:
+[32895][      debug]   minor_words: 662631
+[32895][      debug]   promoted_words: 109821
+[32895][      debug]   major_words: 112563
+[32895][      debug]   minor_collections: 1
+[32895][      debug]   major_collections: 0
+[32895][      debug]   compactions: 0
+[32895][      debug]   top_heap_words: 1157632
+[32895][      debug]   
+[32895][      debug] Average over 4 processes
+[32895][      debug] GC stats for backend_stats.gc_stats_average.:
+[32895][      debug]   minor_words: 165698
+[32895][      debug]   promoted_words: 27455.2
+[32895][      debug]   major_words: 28140.8
+[32895][      debug]   minor_collections: 0
+[32895][      debug]   major_collections: 0
+[32895][      debug]   compactions: 0
+[32895][      debug]   top_heap_words: 1044352
+[32895][      debug]   
+[32895][      debug] Analysis phase finished in 49.193ms
+[32895][      debug] backend_stats.scheduler_process_analysis_time_user= 0.02099000
+[32895][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.01254800
+[32895][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.04919288
+[32895][      debug] GC stats for analysis_scheduler:
+[32895][      debug]   minor_words: 152923
+[32895][      debug]   promoted_words: 107066
+[32895][      debug]   major_words: 115772
+[32895][      debug]   minor_collections: 1
+[32895][      debug]   major_collections: 2
+[32895][      debug]   compactions: 1
+[32895][      debug]   top_heap_words: 1157632
+[32895][      debug]   
+[32895][      debug] GC stats for report:
+[32895][      debug]   minor_words: 2681
+[32895][      debug]   promoted_words: 0
+[32895][      debug]   major_words: 0
+[32895][      debug]   minor_collections: 0
+[32895][      debug]   major_collections: 0
+[32895][      debug]   compactions: 0
+[32895][      debug]   top_heap_words: 1157632
+[32895][      debug]   
+[32895][      debug] GC stats for main_process_full:
+[32895][      debug]   minor_words: 3.50928e+06
+[32895][      debug]   promoted_words: 522937
+[32895][      debug]   major_words: 1.07274e+06
+[32895][      debug]   minor_collections: 10
+[32895][      debug]   major_collections: 5
+[32895][      debug]   compactions: 2
+[32895][      debug]   top_heap_words: 1157632
+[32895][      debug]   
+[32896][      debug] Sqlite write daemon: terminating

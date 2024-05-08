@@ -14,5 +14,15 @@ mantenibilidad.
 - [✓]Análisis de código estático: Configurar SonarQube para analizar el código y solucionar
 problemas identificados.
 
+### Sprint 2 ✓
+- [ ] Ampliar la lógica del juego para incluir retroalimentación detallada sobre las suposiciones.
+	- [ ] Implementar lógica para evaluar letras en posiciones correctas e incorrectas. Integra el código de assess y la evaluación de la posición de las letras.
+- [ ]Continuar el desarrollo utilizando TDD.
+	- [ ] Pruebas de retroalimentación: Ampliar el conjunto de pruebas para cubrir todos los casos posibles de retroalimentación, incluyendo secondLetterWrongPosition y allScoreCombinations.
+3 . Refactorización: Mejorar el diseño y la implementación basada en los resultados de las
+pruebas y el análisis de código estático.
+4. Cobertura de código: Utilizar JaCoCo o otras herramienta para asegurar que la cobertura del
+código sea superior al 90%.
+
  
  

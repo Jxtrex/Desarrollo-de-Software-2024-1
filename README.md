@@ -1,6 +1,6 @@
 # Desarrollo-de-Software-2024-1
 ## Sonarqube
-[Instalar SonarQube](ACTIVIDADES/README.md)
+[Instalar SonarQube](ACTIVIDADES/README.md#install-sonarqube)
 
 - Iniciar: `sudo systemctl start sonar`
 - Detener: `sudo systemctl stop sonar`
@@ -43,7 +43,7 @@ Finalmente recompilamos gradle y corremos el bloque de sonar como si fuera un te
 ## Docker
 > Ante la duda usa `sudo`
  
-[Instalar Docker](ACTIVIDADES/README.md)
+[Instalar Docker](ACTIVIDADES/README.md#install-docker)
 
 **Levantar un entorno de desarrollo con Docker compose** 
 

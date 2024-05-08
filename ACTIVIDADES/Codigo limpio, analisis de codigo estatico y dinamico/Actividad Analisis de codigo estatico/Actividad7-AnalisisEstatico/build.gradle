@@ -22,6 +22,7 @@ plugins {
 }
 
 // Apply the java-library plugin to add support for Java Library
+apply plugin: 'java'
 apply plugin: 'java-library'
 apply plugin: "jacoco"
 
@@ -62,6 +63,14 @@ test {
     useJUnitPlatform() // This is required to run JUnit 5 tests
     testLogging.showStandardStreams = true
 }
+task runInfer(type: Exec){
+    commandLine 'infer','run','--','gradle','compileJava'
+    doLast{
+        println 'Infer analysis completed!'
+    }
+}
+
+compileJava.finalizedBy(runInfer)
 
 check.dependsOn jacocoTestReport
 check.dependsOn "pitest"

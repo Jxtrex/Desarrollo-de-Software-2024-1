@@ -1,15 +1,7 @@
-# Project
+# Tareas del Curso
 
-Project Description
+Actividades por terminar registradas a partir del 07/05/2024.
 
-<em>[TODO.md spec & Kanban Board](https://bit.ly/3fCwKfM)</em>
-
-### Todo
-
-
-### In Progress
-
-
-### Done ✓
-
-
+### Todo ✓
+- [ ] [Actividad RGR y TDD](ACTIVIDADES/Codigo%20limpio,%20analisis%20de%20codigo%20estatico%20y%20dinamico/Actividad%20RGR%20y%20TDD/)
+- [ ] [Análisis de Código Estático](ACTIVIDADES/Codigo%20limpio,%20analisis%20de%20codigo%20estatico%20y%20dinamico/Actividad%20Analisis%20de%20codigo%20estatico/)

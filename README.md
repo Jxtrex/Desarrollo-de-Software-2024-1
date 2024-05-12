@@ -41,9 +41,10 @@ Finalmente recompilamos gradle y corremos el bloque de sonar como si fuera un te
 ![alt text](<Recursos varios/CORRER SONA DESDE INTELLIJ.PNG>)
 
 ## Docker
-> Ante la duda usa `sudo`
  
 [Instalar Docker](ACTIVIDADES/README.md#install-docker)
+
+> Ante la duda usa `sudo`
 
 ### Levantar un entorno de desarrollo con Docker compose 
 

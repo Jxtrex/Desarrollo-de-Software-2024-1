@@ -1,39 +1,24 @@
 # Desarrollo-de-Software-2024-1
 ## Mapa del Repositorio
 ```
-└── 📁ACTIVIDADES
-    └── 📁Codigo limpio, analisis de codigo estatico y dinamico
-        └── 📁Actividad Analisis de codigo estatico
-            └── 📁Actividad7-AnalisisEstatico
-            └── 📁Programa de Prueba con Infer
-            └── README.md
-            └── TODO.md
-        └── 📁microwave-docker
-            └── docker-compose.yml
-        └── placeholder.jpg
-        └── 📁Sonarqube-and-sonarlint-guide main microwave
-    └── 📁Codigo limpio, refactorizacion, calidad de software
-    └── 📁Desarrollo de software con metodologias agiles
-        └── 📁Actividad AAA
-            └── 📁ActividadAAA
-    └── 📁Introduccion al Proceso de Desarrollo de Software
-        └── 📁Actividad1-Testing
-        └── 📁kapumota Actividades-CC3S2 main 2024-1-Actividad2-TictocToe(1)
-    └── 📁Metodologias agiles
-        └── placeholder.jpg
+└── 📁Lerzundi-CC3S2_2024-1
+    └── 📁ACTIVIDADES
+        └── 📁Codigo limpio, analisis de codigo estatico y dinamico
+        └── 📁Codigo limpio, refactorizacion, calidad de software
+        └── 📁Desarrollo de software con metodologias agiles
+        └── 📁Introduccion al Proceso de Desarrollo de Software
+        └── 📁Metodologias agiles
+        └── README.md
+        └── 📁Refactorizacion y calidad de software
+        └── 📁Scrum
+        └── 📁Scrum para el desarrollo del software
+        └── TODO.md
+    └── 📁ExamenFinal-CC3S2
+    └── 📁ExamenParcial-CC3S2
+    └── 📁NOTAS PERSONALES
+    └── 📁PracticaCalificada1- CC3S2
     └── README.md
-    └── 📁Refactorizacion y calidad de software
-        └── placeholder.jpg
-    └── 📁Scrum
-        └── placeholder.jpg
-    └── 📁Scrum para el desarrollo del software
-        └── 📁Actividad Ejemplo de TDD
-            └── 📁Actividad6-RGR+TDR
-            └── README.md
-        └── 📁Actividad RGR y TDD
-            └── README.md
-            └── TODO.md
-    └── TODO.md
+    └── 📁Recursos varios
 ```
 
 ## Sonarqube

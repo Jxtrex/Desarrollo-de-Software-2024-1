@@ -1,4 +1,41 @@
 # Desarrollo-de-Software-2024-1
+## Mapa del Repositorio
+```
+└── 📁ACTIVIDADES
+    └── 📁Codigo limpio, analisis de codigo estatico y dinamico
+        └── 📁Actividad Analisis de codigo estatico
+            └── 📁Actividad7-AnalisisEstatico
+            └── 📁Programa de Prueba con Infer
+            └── README.md
+            └── TODO.md
+        └── 📁microwave-docker
+            └── docker-compose.yml
+        └── placeholder.jpg
+        └── 📁Sonarqube-and-sonarlint-guide main microwave
+    └── 📁Codigo limpio, refactorizacion, calidad de software
+    └── 📁Desarrollo de software con metodologias agiles
+        └── 📁Actividad AAA
+            └── 📁ActividadAAA
+    └── 📁Introduccion al Proceso de Desarrollo de Software
+        └── 📁Actividad1-Testing
+        └── 📁kapumota Actividades-CC3S2 main 2024-1-Actividad2-TictocToe(1)
+    └── 📁Metodologias agiles
+        └── placeholder.jpg
+    └── README.md
+    └── 📁Refactorizacion y calidad de software
+        └── placeholder.jpg
+    └── 📁Scrum
+        └── placeholder.jpg
+    └── 📁Scrum para el desarrollo del software
+        └── 📁Actividad Ejemplo de TDD
+            └── 📁Actividad6-RGR+TDR
+            └── README.md
+        └── 📁Actividad RGR y TDD
+            └── README.md
+            └── TODO.md
+    └── TODO.md
+```
+
 ## Sonarqube
 [Instalar SonarQube](ACTIVIDADES/README.md#install-sonarqube)
 
@@ -41,10 +78,9 @@ Finalmente recompilamos gradle y corremos el bloque de sonar como si fuera un te
 ![alt text](<Recursos varios/CORRER SONA DESDE INTELLIJ.PNG>)
 
 ## Docker
+> Ante la duda usa `sudo`
  
 [Instalar Docker](ACTIVIDADES/README.md#install-docker)
-
-> Ante la duda usa `sudo`
 
 ### Levantar un entorno de desarrollo con Docker compose 
 

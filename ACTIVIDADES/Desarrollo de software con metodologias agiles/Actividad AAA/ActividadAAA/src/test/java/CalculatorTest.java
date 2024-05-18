@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import java.awt.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 class CalculatorTest {
 
     @Test
@@ -49,7 +49,7 @@ class CalculatorTest {
     }
 
     @Test
-    void division() {
+    void testDivision_PositiveNumbers_ShouldReturnCorrectDivision() {
         // Arrange
         Calculator calculator = new Calculator();
         int numeroA = 10;
@@ -60,5 +60,59 @@ class CalculatorTest {
 
         // Assert
         assertEquals(2,resultado, "10 / 5 debería ser 2");
+    }
+    @Test
+    void testDivision_NegativeNumbers_ShouldReturnCorrectDivision() {
+        // Arrange
+        Calculator calculator = new Calculator();
+        int numeroA = -10;
+        int numeroB = -5;
+
+        // Act
+        double resultado = calculator.division(numeroA,numeroB);
+
+        // Assert
+        assertEquals(2,resultado, "-10 / -5 debería ser 2");
+    }
+    @Test
+    void testDivision_PositiveDidivedByNegative_ShouldReturnCorrectDivision() {
+        // Arrange
+        Calculator calculator = new Calculator();
+        int numeroA = 10;
+        int numeroB = -5;
+
+        // Act
+        double resultado = calculator.division(numeroA,numeroB);
+
+        // Assert
+        assertEquals(-2,resultado, "10 / -5 debería ser -2");
+    }
+    @Test
+    void testDivision_NegativeDidivedByPositive_ShouldReturnCorrectDivision() {
+        // Arrange
+        Calculator calculator = new Calculator();
+        int numeroA = -10;
+        int numeroB = 5;
+
+        // Act
+        double resultado = calculator.division(numeroA,numeroB);
+
+        // Assert
+        assertEquals(-2,resultado, "-10 / 5 debería ser -2");
+    }
+    @Test
+    void testDivision_DivisionByZero_ShouldReturnCorrectDivision() {
+        // Arrange
+        Calculator calculator = new Calculator();
+        int numeroA = 10;
+        int numeroB = 0;
+
+        // Act
+        try {
+        double resultado = calculator.division(numeroA,numeroB);
+        } catch (Exception e) {
+            // Assert
+            assertThatExceptionOfType(ArithmeticException.class);
+        }
     }
 }

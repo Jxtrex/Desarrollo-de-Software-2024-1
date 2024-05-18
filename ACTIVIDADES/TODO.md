@@ -4,15 +4,20 @@ Actividades por terminar registradas a partir del 07/05/2024.
 
 ### Todo ✓
 - [ ] Introducción al Proceso de Desarrollo de Software
-  - [✓] [Actividad Metodología de procesos de software](https://github.com/Jxtrex/CC3S2_2024-1-RepositorioGrupo1/blob/main/Actividad%201/ACTIVIDAD.md)
+  - [x] [Actividad Metodología de procesos de software](https://github.com/Jxtrex/CC3S2_2024-1-RepositorioGrupo1/blob/main/Actividad%201/ACTIVIDAD.md)
+  
 - [ ] Metodologías ágiles
-  - [✓] [Actividad Creación de microcarta](https://github.com/Jxtrex/CC3S2_2024-1-RepositorioGrupo1/blob/main/Actividad%202/Microcarta.md)
+  - [x] [Actividad Creación de microcarta](https://github.com/Jxtrex/CC3S2_2024-1-RepositorioGrupo1/blob/main/Actividad%202/Microcarta.md)
+  
 - [ ] Desarrollo de software con metodologías ágiles
   - [ ] [Actividad AAA](Desarrollo%20de%20software%20con%20metodologias%20agiles/Actividad%20AAA/ActividadAAA/)
   - [ ] Actividad AAA y TDD
+- [ ] Scrum
+  - [x] [Actividad Uso de Trello](https://univirtual.uni.pe/pluginfile.php/619805/mod_resource/content/1/Actividad-Trello.pdf)
 - [ ] Scrum para el desarrollo de software
     - [ ] [Actividad Ejemplo de TDD](Scrum%20para%20el%20desarrollo%20del%20software/Actividad%20Ejemplo%20de%20TDD/)
     - [ ] [Actividad RGR y TDD](Scrum%20para%20el%20desarrollo%20del%20software/Actividad%20RGR%20y%20TDD/)
+  
 - [ ] Código limpio, análisis de código estático y dinámico
     - [?] [Actividad Análisis de Código Estático](Codigo%20limpio,%20analisis%20de%20codigo%20estatico%20y%20dinamico/Actividad%20Analisis%20de%20codigo%20estatico/) 
 - [ ] Refactorización y código limpio
@@ -26,7 +31,7 @@ Actividades por terminar registradas a partir del 07/05/2024.
 - Desarrollo de software con metodologías ágiles
   - Actividad de historias de usuario y criterios de aceptación
 - Scrum
-  - Actividad Uso de Trello
+  - [Actividad Uso de Trello](https://univirtual.uni.pe/pluginfile.php/619805/mod_resource/content/1/Actividad-Trello.pdf)
   - Actividad Introducción a Cucumber
   
 ### Esquema

@@ -77,9 +77,12 @@ E = 9
 N = 8
 P = 1
 M = 9-8+2*1 = 3
+
 En el Ejemplo 2:
+
 Sale 4, pero en wikipedia dice algo diferente con otra definición: [link](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
 
 ***
 > La próxima clase veremos 3 tipos de cobertura, cobertura de rutas por ejemplo.
+
 > Revisar constantemente los archivos en univirtual y adicionar al repositorio [REPO DEL CURSO](https://github.com/Jxtrex/Desarrollo-de-Software-2024-1)

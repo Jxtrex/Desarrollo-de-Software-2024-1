@@ -79,8 +79,13 @@ P = 1
 M = 9-8+2*1 = 3
 
 En el Ejemplo 2:
+Se cálcula mediante la fórmula: M=E-N+P (Pues es un grafo fuertemente conexo)
+E = 9
+N = 7
+P = 1
+M = 9-7+1 = 3
 
-Sale 4, pero en wikipedia dice algo diferente con otra definición: [link](https://en.wikipedia.org/wiki/Cyclomatic_complexity)
+Sale 3, [Artículo de Wikipedia](https://en.wikipedia.org/wiki/Cyclomatic_complexity), [geeksforgeeks](https://www.geeksforgeeks.org/cyclomatic-complexity/#:~:text=is%20defined%20as-,M%20%3D%20E%20%E2%80%93%20N%20%2B%20P,-where)
 
 ***
 > La próxima clase veremos 3 tipos de cobertura, cobertura de rutas por ejemplo.

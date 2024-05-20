@@ -4,7 +4,7 @@ Grupo 1: Lerzundi, Joshua Del Rosario, Gabriel Quiroz.
 - [Respuestas de Joshua](https://github.com/Dgafecb/CC3S2A/blob/master/ActividadAtributosCalidadEscenarios.md)
 
 
-**Cualidad de Tiempo de Ejecución**
+**Atributo de Calidad de Tiempo de Ejecución**
 
 Fuente:[link](https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ee658094(v=pandp.10))
 
@@ -41,7 +41,7 @@ Respuesta: Capacidad de almacenamiento de sistema.
 
 Medida de respuesta:
 -   El sistema tiene una capacidad de almacenamiento de 15 Exabytes.
--   Al ritmo del uso diario de los usuarios, luego de 9.5 años Youtube tendrá que aumentar su capacidad de almacenamiento.  
+-   Al ritmo del uso diario de los usuarios luego de 9.5 años Youtube tendrá que aumentar su capacidad de almacenamiento.  
 
 ## Security (Seguridad):
 Importancia: La seguridad de un sistema establece límites en el uso de este lo que apunta a prevenir cualquier 

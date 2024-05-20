@@ -2,7 +2,7 @@
 Grupo 1: Lerzundi, Joshua Del Rosario, Gabriel Quiroz.
 
 - [Respuestas de Joshua](https://github.com/Dgafecb/CC3S2A/blob/master/ActividadAtributosCalidadEscenarios.md)
-
+- [Respuesta de Gabriel](https://github.com/GabrielQuiroz25/Actividades-CC3S2/blob/master/2024-1/Actividad%3A%20Calidad%20de%20software%20a%20trav%C3%A9s%20de%20escenarios.md)
 
 **Atributo de Calidad de Tiempo de Ejecución**
 

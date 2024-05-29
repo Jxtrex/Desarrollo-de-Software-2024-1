@@ -29,6 +29,9 @@ Actividades por terminar registradas a partir del 07/05/2024.
 8. Prácticas de ingeniería para construir software de calidad
   - [ ] [Actividad Metricas de calidad de software](../NOTAS%20PERSONALES/Semana%209/NOTAS%20PERSONALES.md)
   - [ ] Actividad Calidad de software a través de escenarios
+
+9. Técnicas sobre calidad de software
+   - [?] [Actividad Pruebas basadas en especificaciones](Ténicas%20sobre%20calidad%20de%20software/Actividad%20Pruebas%20basadas%20en%20especificaciones/)
 ### Backlog
 - Metodologías ágiles
   - Actividad Uso elemental de Git y Github
@@ -47,3 +50,4 @@ Actividades por terminar registradas a partir del 07/05/2024.
 6. Código limpio, análisis de código estático y dinámico
 7. Refactorización y código limpio
 8. Prácticas de ingeniería para construir software de calidad
+9. Técnicas sobre calidad de software 

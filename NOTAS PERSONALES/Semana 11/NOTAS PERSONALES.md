@@ -1,6 +1,7 @@
-27/05/24
-# Notas Personales
 
+# Notas Personales
+> [!IMPORTANT] Fecha
+>  27/05/24
 ### PALABRAS CLAVE:
 
 
@@ -21,6 +22,16 @@ Dagmar y Jhonatann (Ayudantía) comenzaron con una exposición:
   - **Cobertura de rutas**
 
 Se realizo la [actividad](https://univirtual.uni.pe/pluginfile.php/630556/mod_resource/content/1/PruebasBasadasEspecificaciones.pdf) de pruebas basadas en especificaciones
+
+> [!IMPORTANT] Fecha
+>  29/05/24
+
+### PALABRAS CLAVE: 
+- Stubs
+- Mocks
+- Spies
+
+### RELATO
 
 
 ***

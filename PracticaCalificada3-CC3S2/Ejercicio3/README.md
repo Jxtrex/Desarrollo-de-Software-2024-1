@@ -26,7 +26,9 @@ llave", "usar poción").
 - [x] Permite al jugador moverse entre habitaciones usando comandos.
 - [x] Implementa comandos básicos para el movimiento (por ejemplo, "mover norte").
 
-
+**Ejecución**  
+![alt text](<Imagenes/Imagen 1.png>)
+Primera ejecución de las pruebas unitarias.
 ## Sprint 2
 
 ## Sprint 3

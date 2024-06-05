@@ -1,8 +1,5 @@
-import java.nio.file.attribute.AclEntry;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
 
 public class Habitacion {
     private List<String> objetos;
@@ -17,7 +14,6 @@ public class Habitacion {
         this.jugador = null;
         liberada = true;
     }
-    // Scanner sc = new Scanner(System.in) sc.nextLine()
     Habitacion(Integer cantidadObjetos, String acertijo, String respuesta) throws Exception{
         if(cantidadObjetos > 10) throw new Exception("Máximo 10 objetos.");
     objetos = new ArrayList<>(cantidadObjetos);

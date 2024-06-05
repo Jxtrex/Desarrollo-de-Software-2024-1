@@ -45,4 +45,8 @@ public class Jugador {
     }
 
 
+    public void setPosition(int i, int i1) {
+        this.posicion[0] = i;
+        this.posicion[1] = i1;
+    }
 }

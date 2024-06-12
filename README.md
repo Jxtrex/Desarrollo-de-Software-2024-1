@@ -111,11 +111,34 @@ Para correr Kubernetes es necesario usar docker sin el comando sudo, [link](http
 kubectl version --client
 ```
 
+**Acceder a nuestro cluster**
+```shell
+kubectl get po -A
+```
+
+**Acceder a nuestro cluster y descargar la versión apropiada de kubectl**
+```shell
+minikube kubectl -- get po -A
+```
+
+**Ejecutamos Nginx en nuestro cluster**
+[nginx.yaml](ACTIVIDADES/Docker%20y%20Kubernetes/recursos/nginx.yaml)
+
+
+**Comandos útiles**
+
+- Listar pods: `kubectl get pods`
+
 ### Minikube
 > [Instalar minikube](ACTIVIDADES/README.md#instalamos-minikube)  
  
  **Iniciar el cluster**
 ```shell
 minikube start
+```
+
+**Abrir el dashboard de Kubernetes**
+```shell
+minikube kubectl -- get po -A
 ```
 

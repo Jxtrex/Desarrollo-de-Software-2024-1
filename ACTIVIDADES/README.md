@@ -179,3 +179,37 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 ```bash
 sudo docker run hello-world
 ```
+
+## Instalar Kubernetes 
+### Instalamos kubectl
+**Descargamos kubetcl**
+```shell
+ curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+```
+
+**Descargamos el archivo kubectl checksum**
+
+```shell
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+```
+
+Validamos la suma de verificación del binario de kubectl.
+
+```shell
+echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+```
+
+**Instalamos kubectl**
+```shell
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+```
+
+### Instalamos Minikube
+> [Link de la guía](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download)
+
+**Descargamos e instalamos Minikube como un paquete Debian**
+```shell
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+sudo dpkg -i minikube_latest_amd64.deb
+```
+

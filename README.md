@@ -97,3 +97,25 @@ Finalmente recompilamos gradle y corremos el bloque de sonar como si fuera un te
 - [Gestión de contenedores](https://phoenixnap.com/kb/remove-docker-images-containers-networks-volumes)
 - [Contenedor que se cierra prematuramente](https://stackoverflow.com/a/45270860)
  
+## Kubernetes
+> [Instalar Kubernetes](ACTIVIDADES/README.md#instalar-kubernetes)  
+> [Link de la guía](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
+
+Para correr Kubernetes es necesario usar docker sin el comando sudo, [link](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
+
+### Kubectl  
+> [Instalar kubectl](ACTIVIDADES/README.md#instalamos-kubectl)  
+ 
+**Verificamos la versión de kubectl**
+```shell
+kubectl version --client
+```
+
+### Minikube
+> [Instalar minikube](ACTIVIDADES/README.md#instalamos-minikube)  
+ 
+ **Iniciar el cluster**
+```shell
+minikube start
+```
+

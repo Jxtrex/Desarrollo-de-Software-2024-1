@@ -21,4 +21,5 @@ public class Wave {
         return enemies;
     }
 // Métodos para manejar el progreso de la oleada
+
 }

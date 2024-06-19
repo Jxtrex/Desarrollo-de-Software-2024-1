@@ -1,7 +1,7 @@
 public class Map {
-    String[][] mapa = new String[5][5];
+    Integer[][] mapa = new Integer[5][5];
 
-    Map(String[][] mapa) {
+    Map(Integer[][] mapa) {
         int n = mapa.length;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {

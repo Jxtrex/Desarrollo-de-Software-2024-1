@@ -69,3 +69,38 @@ $ docker images
 ![alt text](../recursos/docker_commit-ubuntu-git.png)
 
 Si usamos `docker commit <id>` sin `ubuntu-git` el nombre repositorio y el tag estarán vacíos.
+
+### Dockerfile
+
+Creamos un directorio nuevo y un archivo Dockerfile en el que ponemos lo siguiente:
+
+```dockerfile
+FROM ubuntu:20.04
+RUN apt-get update && \
+    apt-get install -y python
+```
+
+Luego, creamos la imagen de `ubuntu-python`.
+
+![alt text](../recursos/docker_build-ubuntu-python.png)  
+
+### Aplicación Docker completa
+
+Creamos un archivo `hola.py` que contenga **"¡Hola mundo desde Python!"** y creamos un Dockerfile con el siguiente contenido.
+
+```dockerfile
+FROM ubuntu:20.04
+RUN apt-get update && \
+    apt-get install -y python
+COPY hola.py .
+ENTRYPOINT [ "python", "hola.py" ]
+```
+
+Luego, ejecutamos el Dockerfile.
+
+![alt text](../recursos/docker_build-hola-python.png)  
+
+Por último ejecutamos la imagen que hemos creado con `docker run hola-python`
+
+![alt text](../recursos/docker_run-hola-python.png)
+

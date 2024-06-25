@@ -27,7 +27,7 @@ public class TowerDefenseGame {
         System.out.println("Vida de la base: " + player.getBaseHealth());
     }
 
-    public static void main(String[] args) {
-        System.out.println("TEST");
-    }
+//    public static void main(String[] args) {
+//        System.out.println("TEST");
+//    }
 }

@@ -128,9 +128,54 @@ Podemos ver el nombre del contenedor, volumen y red con el sufijo _YML para dife
 
 ### Despliegue en Kubernetes
 
+**deployment.yaml**
 
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tower-defense-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tower-defense-game
+  template:
+    metadata:
+      labels:
+        app: tower-defense-game
+    spec:
+      containers:
+        - name: tower-defense-game
+          image: tower-defense-game
+          ports:
+            - containerPort: 8080
+```
 
+**service.yaml**
 
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: tower-defense-service
+spec:
+  selector:
+    app: tower-defense-game
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+  type: LoadBalancer
+```
+Iniciamos nuestro cluster con `minikube start`, luego aplicamos los archivos de configuración en Kubernetes
 
+```yaml
+kubectl apply -f deployment.yaml
+```
+```yaml
+kubectl apply -f service.yaml
+```
 
+![alt text](../recursos/kubectl-get-pods-services.png)
 

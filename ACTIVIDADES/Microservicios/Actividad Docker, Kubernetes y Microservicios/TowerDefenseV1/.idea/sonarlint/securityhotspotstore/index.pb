@@ -17,3 +17,5 @@ H
 src/main/java/Dockerfile,6/7/672bcd0c69b86ab8730974a80217e64e77870e42
 X
 (gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+P
+ src/main/java/docker-compose.yml,9/b/9bbfcd5a0a838250935f658ac3b8879139b512c0

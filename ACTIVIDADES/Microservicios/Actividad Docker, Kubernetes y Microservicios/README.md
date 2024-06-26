@@ -93,3 +93,44 @@ ls /app
 **TODO: El contenedor no se mantiene activo para ingresar los comandos**
 
 ### Implementación con Docker Compose
+
+Creamos nuestro archivo YAML.
+
+```yaml
+version: '3'
+services:
+  game: # First server/container
+    image: tower-defense-game
+    networks: # Network to join
+      - game-network_YML
+    volumes:
+      - game-data_YML:/data
+networks:
+  game-network_YML: # Network definition
+    driver: bridge
+volumes:
+  game-data_YML: # Volume definition
+    driver: local
+```
+
+Iniciamos los servicios
+
+```shell
+docker compose up -d
+```
+
+Podemos ver el nombre del contenedor, volumen y red con el sufijo _YML para diferenciarlos de los creados anteriormente.  
+<img src="../recursos/docker-compose-container-ls.png" width="500">
+
+<img src="../recursos/docker-compose-network-ls.png" width="500">
+
+<img src="../recursos/docker-compose-volume-ls.png" width="500">
+
+### Despliegue en Kubernetes
+
+
+
+
+
+
+

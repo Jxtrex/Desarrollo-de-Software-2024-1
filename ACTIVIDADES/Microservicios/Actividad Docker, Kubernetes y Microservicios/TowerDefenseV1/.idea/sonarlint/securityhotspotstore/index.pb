@@ -19,3 +19,7 @@ X
 (gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 P
  src/main/java/docker-compose.yml,9/b/9bbfcd5a0a838250935f658ac3b8879139b512c0
+L
+src/main/java/deployment.yml,1/b/1b969ac09e36928335a84f38ebd52b6b5c2e43e6
+I
+src/main/java/service.yml,9/3/93e6d76157da39ef79afcae792624c71bf942879

@@ -12,8 +12,51 @@
 **Práctico:**
 
 - Escribe un Dockerfile para la aplicación Tower Defense que incluya la instalación de todas las dependencias necesarias. Asegúrate de optimizar el Dockerfile para reducir el tamaño de la imagen final.
+
+```dockerfile
+FROM openjdk:11
+WORKDIR .
+COPY . .
+RUN javac TowerDefenseGame.java
+CMD ["java","TowerDefenseGame"]
+```
+
 - Construye y ejecuta el contenedor Docker utilizando el Dockerfile creado. Utiliza docker exec para acceder al contenedor y verificar que la aplicación funcione correctamente.
+
+```shell
+docker build -t tower-defense-game-pc5 .
+```
+![alt text](recursos/docker-build-dockerfile.png)
+
+```shell
+docker run -it --name tower-defense-container-pc5 tower-defense-game-pc5
+```
+
+```shell
+docker exec -it tower-defense-container /bin/bash
+```
+![alt text](recursos/docker-exec.png)
+
+
 - Configura una red personalizada para la aplicación Tower Defense. Implementa múltiples contenedores que interactúen entre sí a través de esta red personalizada.
+
+```shell
+docker network create game-network-pc5
+```
+
+```shell
+docker run -it --name tower-defense-container-pc5_1 --network=game-network-pc5 tower-defense-game-pc5
+```
+```shell
+docker run -it --name tower-defense-container-pc5_2 --network=game-network-pc5 tower-defense-game-pc5
+```
+
+```shell
+docker network inspect game-network-pc5
+```
+![alt text](recursos/docker-network-inspect-game-network-pc5.png)
+
+
 
 
 ### Ejercicio 2: Redes y volúmenes en Docker (3 puntos)
@@ -27,8 +70,40 @@
 
 **Práctico:**
 
-- Crea una red personalizada para el proyecto Tower Defense y configura los contenedores para que utilicen esta red.
+- Crea una red personalizada para el proyecto Tower Defense y configura los contenedores para que utilicen esta red.  
+[^](#ejercicio-1-configuración-y-uso-de-docker-3-puntos)
 - Implementa un volumen Docker para almacenar los datos del juego de forma persistente. Asegúrate de que el volumen se monte correctamente y que los datos persistan después de reiniciar el contenedor.
+
+```shell
+docker volume create game-data-pc5
+```
+
+Creamos un contenedor temporal y montamos un volumen de `/data/`.
+
+```shell
+docker run -it --name temp-container --network=game-network-pc5 -v game-data-pc5:/data tower-defense-game-pc5
+```
+
+Luego creamos un archivo de texto dentro del volumen
+
+```shell
+docker exec -it temp-container bash
+root@907591e91155:/# echo "Hola mundo" > /data/temp.txt
+root@907591e91155:/# exit
+exit
+```
+Borramos el contenedor `temp-container` y creamos otro `another-temp-container` y leemos nuestro archivo de texto.
+
+```shell
+docker container rm temp-container
+```
+
+```shell
+docker run -it --name another-temp-container --network=game-network-pc5 -v game-data-pc5:/data tower-defense-game-pc5
+```
+
+![alt text](recursos/docker-exec-cat.png)
+
 - Utiliza docker-compose para definir los servicios de la aplicación Tower Defense, incluyendo redes y volúmenes. Escribe un archivo docker-compose.yml que configure estos servicios y despliega la aplicación utilizando Docker Compose.
 
 
